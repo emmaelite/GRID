@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 'header header header header' 'main main main main' 'footer footer footer footer';
+
+}
+.grid-container div{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid red;
+
+}
+.item1 {
+    grid-area: header;
+    border: 2px solid red;
+
+}
+.item2 {
+    grid-area: main;
+    border: 2px solid red;
+    height: 600px;
+}
+.item3{
+    grid-area: footer;
+    border: 2px solid red;
+}
+
+
+
